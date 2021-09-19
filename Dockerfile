@@ -5,4 +5,3 @@ RUN yum install sudo -y && \
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
- 
