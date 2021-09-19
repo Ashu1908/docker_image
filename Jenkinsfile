@@ -7,7 +7,7 @@ pipeline {
                       sh 'sudo cp -rvf * /test'
                       sh 'sudo docker build -t ashut1908/k8s:v1  /test'
                       sh 'sudo docker login -u ashut1908  -p Rahul@123'
-                      sh 'sudo docker push ashut1908/k8s:v1'   
+                      sh 'sudo docker push ashut1908/k8s:v1'    
                       }
                 }
           }
